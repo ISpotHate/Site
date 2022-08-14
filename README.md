@@ -1,4 +1,4 @@
-Note: Website is hosted with netlify pages at [ispothate.netlify.app](https://ispothate.netlify.app/) and [ispothate.ml](https://ispothate.ml/)
+Note: Website is hosted with Netlify Pages at [ispothate.netlify.app](https://ispothate.netlify.app/) and [ispothate.ml](https://ispothate.ml/)
 
 ## Inspiration
 Imagine this scenario: You run a consumer software startup; your audience ranges from 5 year olds to 105 year olds. You're scaling fast, but then disaster strikes: hateful content. 

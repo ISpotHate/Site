@@ -47,7 +47,7 @@
     <div class="hero" id="home">
       <div class="hero__container">
         <h1 class="hero__heading">Welcome to <span>iSpotHate</span></h1>
-        <p class="hero__description">Hate Speech Detection</p>
+        <p class="hero__description">Hate Speech Detection As A Service</p>
         <button class="main__btn"><a href="#about">Explore</a></button>
       </div>
     </div>
@@ -58,16 +58,42 @@
         
         <div class="main__content">
           <h1>What does this do?</h1>
-          <h2>iSpotHate is a project which uses machine learning to prevent hate speech on several social media platforms to include a safer space for everyone.  </h2>
-          <p>There are many projects out there that predict hate speech, but there are some glaring issues. Some examples are - apps that are limited and have a low accuracy value to determine certain meanings. </br> 
-Some are marketed to wrong audience and are just simply difficult to use!
-</p>
-          <p>Instead, our app is preemptive, which means it works to mitigate social injustice before it happens! It is also marketed towards children/teenagers who are just beginning to use social media and are in need of guidance. </br> There is also a possibility of harmful sites being accessed on accident/on purpose and parental control (for a younger age group) </br> </br> PROS: </br> 1) In addition, the Chrome extension makes it very applicable for anyone to use easily. </br>
-2) Automated and able to call REST APIs easily. </br>
-3) Includes highly accurate results/F1 scores. </br>
-4) Involves ensembling both models and processes and is easy to correct validation loss or misinterpretations. </br>
-</p>
+          <h2>
+            Imagine this scenario: </h2>
+            You run a consumer software startup; your audience ranges from 5 year olds to 105 year olds. You're scaling fast, but then disaster strikes: hateful content. 
+It's a difficult line to walk between censorship, and offending new users. 
+For small teams, machine learning is already a pain point; difficult to deploy at scale, expensive to develop pipelines. Detecting hate speech is also important to protect users and promote a healthy community and social equity.
 
+          <p> Introducing ISpotHate 
+            
+            <ul>
+              <li>
+                ISpotHate offers hate speech detection as a service.
+              </li>
+              <li>
+                It allows companies to focus on their core product, rather than worrying about using complex methods 
+                to keep content safe and promote social equity. 
+              </li>
+              <li>
+                Our API is one HTTP request away from eradicating hate speech, one word at a time. 
+              </li>
+              <br>
+            </ul>
+
+            <h1> Benefits <h1>
+              <h2> Machine Learning</h2>
+              <ul>
+                <li> State of the art machine learning model ensembles </li>
+                <li> Fine tuned on real world datasets for high accuracy </li>
+                <li> Robust options for model choices </li>
+              </ul>
+              <br>
+              <h2> API </h2>
+              <ul>
+                <li> Simple API calls and interface </li>
+                <li> Fast latency and runtime </li>
+                <li> Efficient integration into any of your services or workflows </li>
+              </ul>
         </div>
 	<div class="main__img--container">
 	  <div class="main__img--card" id="card-2">
@@ -76,36 +102,57 @@ Some are marketed to wrong audience and are just simply difficult to use!
 	  </div>
       </div>
 	</div>
+  
     </div>
+
+    <div class="list">
+      <h1> How does it work? <h1>
+      <h2> Simply type this one line of code: </h2>
+      <br>
+      <h2>http://ispothate.eastus.cloudapp.azure.com:8000/ishate?text={text} </h2>
+      <br>
+      <p> Simply replace the {text} with whatever text you want! It's that easy! </p>
+      <br>
+    </div>
+
+    <div class="list">
+      <h1> Integrations </h1>
+      <h2> Call our API from any web app, chrome extension, or web service! </h2>
+      <h2> Integrate our API into any machine learning model or pipeline workflow! </h2>
+      <br>
+    </div>
+    
 
     <!-- Services Section -->
     <div class="services" id="services">
       <h1>Project Links</h1>
+      <p> Here are just some of the prebuilt apps and examples we offer. 
       <div class="services__wrapper">
-        <div class="services__card">
+        <div class="services__card" onclick="window.location.href='http://ispothate.eastus.cloudapp.azure.com:8000/docs'">
+          <h2>REST API Endpoint</h2>
+          <p>Efficient, modular and intuitive usage! </p>
+          <div class="services__btn"><button>Click me</button></div>
+        </div>
+        <div class="services__card" onclick="window.location.href='https://bobliuuu-ispothatedemo-app-5jgf49.streamlitapp.com/'">
           <h2>Streamlit Demo</h2>
-          <p>Turns data scripts into web apps in minutes! </p>
+          <p>Easy to use, test, and remix! </p>
           <div class="services__btn"><button>Click me</button></div>
         </div>
-        <div class="services__card">
-          <h2>API Endpoint</h2>
-          <p>Efficient setup & Versatile documentation! </p>
-          <div class="services__btn"><button>Click me</button></div>
-        </div>
-        <div class="services__card">
+        <div class="services__card" onclick="window.location.href='https://github.com/ISpotHate/Extension'">
           <h2>Chrome Extension</h2>
-          <p>Easy to use and install! </p>
+          <p>Integrate into your day to day life! </p>
           <div class="services__btn"><button>Click me</button></div>
         </div>
-        <div class="services__card">
+        <div class="services__card" onclick="window.location.href='https://github.com/ISpotHate/Bot'">
           <h2>Discord Bot</h2>
           <!-- (i could just add the figma link)-->
-          <p>Simple integration and support!</p>
-          <div class="services__btn"><button onclick="window.location.href='https://';">Click me</button></div>
+          <p>Simple integration and support for many platforms!</p>
+          <div class="services__btn"><button>Click me</button></div>
         </div>
       </div>
+      <p> See a quickstart demo <a href="https://github.com/ISpotHate/API/demo.ipynb"> here </a>!
     </div>
-
+    
     <!-- Features Section -->
     <div class="main" id="sign-up">
       <div class="main__container">
@@ -119,20 +166,19 @@ they were stereotyped as deviants. Gladly, this worldview of the past is now cha
             Detection of hate speech is important because it can help prevent these harmful effects.</br>
 
 In recent times, social media has become a hotbed for hate speech. Hate speech on social media can have harmful effects on society.
-          </p>
+          The CDC has found a correlation between hate speech and self harm behaviour. </p>
       
-        </br> </br> </br> </br> </br> </br>
+        </br> </br> </br> </br> 
 
 
   <p> <span style= "color: 	#FF69B4;"> <span style="font-size: 35px;"> Frameworks Used: </p></span></span>
-  <p>FastAPI</p> <p>HuggingFace</p>
-  <p>PyTorch</p> <p>Symbl.ai</p> <p>Streamlit</p>
-  <p>Wandb</p>
+  <p>FastAPI</p> 
+  <p>HuggingFace</p> <p>Wandb</p>
+  <p>PyTorch</p> <p>Streamlit</p>
   <p>Chrome Extension Toolkit</p>
-  <p>HTML/CSS/JS</p>
-  <p>JS/TS/NODE</p>
-  <p>Scraper APIs</p>
+  <p>HTML/CSS/Javascript</p>
   <p>Discord.py</p>
+  <p>Docker</p>
           
         </div>
           <div class="main__img--container">
@@ -150,19 +196,18 @@ In recent times, social media has become a hotbed for hate speech. Hate speech o
         <div class="footer__link--wrapper">
           <div class="footer__link--items">
             <h2>About Us</h2>
-            <a href="/sign__up">Made by:</a> <a href="https://github.com/Bobliuuu">Jerry Zhu</a>
+            <a href="">Made by:</a> <a href="https://github.com/Bobliuuu">Jerry Zhu</a>
             <a href="https://github.com/nightshade77777">Suhaani Mehra</a> <a href="/"></a>
           </div>
           <div class="footer__link--items">
             <h2>Contact Us</h2>
-            <a href="/">Facebook</a>
-            <a href="/">Twitter</a>
+            <a href="https://github.com/ISpotHate">Github</a>
           </div>
         </div>
         <div class="footer__link--wrapper">
           <div class="footer__link--items">
             <h2>Media</h2>
-            <a href="/">Devpost Video</a>
+            <a href="https://www.youtube.com/watch?v=_RbV7YVsWWc">Devpost Video</a>
           </div>
           <div class="footer__link--items">
           </div>
@@ -181,11 +226,11 @@ In recent times, social media has become a hotbed for hate speech. Hate speech o
             <a href="https://www.instagram.com" class="social__icon--link"
               ><i class="fab fa-instagram"></i
             ></a>
-            <a href="www.youtube.com" class="social__icon--link"
+            <a href="https://www.youtube.com" class="social__icon--link"
               ><i class="fab fa-youtube"></i
             ></a>
-            <a href="#" class="social__icon--link"><i class="fab fa-reddit"></i>
-            <a href="/" class="social__icon--link"
+            <a href="https://www.reddit.com" class="social__icon--link"><i class="fab fa-reddit"></i>
+            <a href="https://www.twitter.com" class="social__icon--link"
               ><i class="fab fa-twitter"></i
             ></a>
           </div>

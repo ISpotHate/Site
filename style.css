@@ -390,6 +390,17 @@
   background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
 }
 
+.list {
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+ul.listitems {
+  list-style-type: square;
+  color: white;
+}
+
 .fa-layer-group,
 .fa-users {
   font-size: 14rem;
@@ -704,4 +715,9 @@
     padding: 10px;
     width: 100%;
   }
+}
+
+.list {
+  background-color: black;
+  color: white;
 }
